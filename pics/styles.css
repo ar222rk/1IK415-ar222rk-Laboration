@@ -115,11 +115,28 @@ h2 {
 }
 
 
+#nav a {
+    text-indent:24px;
+    background-image:url(sprite.png);
+    background-repeat:no-repeat;
+}
+
+#start-icon {background-position:0 -40px;}
+#start-icon:hover { background-position:0 8px;}
+#presentation-icon {background-position:0 -136px;}
+#presentation-icon:hover { background-position:0 -88px;}
+#laboration-icon {background-position:0 -232px;}
+#laboration-icon:hover { background-position:0 -184px;}
+#kontakt-icon {background-position:0 -328px;}
+#kontakt-icon:hover { background-position:0 -280px;}
 
 
 
 
+#form,input,textarea,select {
+  width:200px;
 
+}
 
 
 

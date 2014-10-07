@@ -1,0 +1,73 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    display:none;
+   
+}
+
+
+ #nav {
+   display:none;
+	
+}
+
+video {
+    display:none;
+    
+}
+
+h5 {
+    display:none;
+}
+
+#section {
+    float:left;
+    background-color:#D0D0D0;
+
+
+}
+    
+
+     
+
+
+h3 {
+    text-decoration: underline;
+  
+    
+}
+h1 {
+    text-decoration:underline;
+}
+
+h2 {
+    text-decoration: underline;
+     border-style: solid;
+     border-width: 5px;
+     border-color: #FFFFFF;
+  
+}
+
+.lion {
+     float:right;
+     border-style: solid;
+     border-width: 7px;
+     border-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
