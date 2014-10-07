@@ -4,6 +4,7 @@
 <head>
   <title> Kontakt</title>
      <link href="../pics/styles.css" rel="stylesheet" type="text/css">
+      <link href="pics/print.css" rel="stylesheet" type="text/css" media="print" >
 </head>
 <meta charset="utf-8"/>
 
@@ -14,10 +15,10 @@
         <div id="nav">
             <h2> mina sajt</h2>
             <ul>
-                <li><a href = "../index.html"> start</a></li>
-                <li><a href = "presentation.html"> presentation</a></li>
-                <li><a href = "laboration.html"> laboration </a></li>
-                <li><a href = "kontakt.html"> kontakt</a></li>
+                <li><a id="start-icon" href = "../index.html"> start</a></li>
+                <li><a id="presentation-icon" href = "presentation.html"> presentation</a></li>
+                <li><a id="laboration-icone" href = "laboration.html"> laboration </a></li>
+                <li><a id="kontakt-icon" href = "kontakt.html"> kontakt</a></li>
             </ul>
         
         </div>
@@ -27,28 +28,30 @@
             <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
 
                 <fieldset>
-                     <legend>Fråga</legend>
-                                   
-                        <br> Ärendetyp: <select name="Frågor och andra ärenden">
-                                   
-                        <option value="Fråga">Fråga</option>
-                        <option value="kontakt">Kontakt</option>
-                        <option value="övrigt">övrigt</option>
-                        </select> </br>
-                             
-                   
-                           <br> Rubrik: <input type="text" name="Fråga"/> <br/>
-                            
-                               Fråga: <textarea rows="5" cols="40"> </textarea>
-                     </fieldset>
+                    <div id ="form">  
+                        <legend>Fråga</legend>
+                        
+                        <label> Ärendetyp:</label>
+                        <select name="Frågor och andra ärenden">
+                            <option value="Fråga">Fråga</option>
+                            <option value="kontakt">Kontakt</option>
+                            <option value="övrigt">övrigt</option>
+                        </select>
+                        
+                        
+                        <P><label>Rubrik</label> <input type="text" name="Fråga"/></P>
+                        
+                        <P><label> Fråga:</label> <textarea rows="5" cols="40"> </textarea></P>
+                    </div>
+                </fieldset>
            
            
                      <fieldset>
        
                               <legend>Information om dig</legend>
                               
-                                Kontakta mig via mail <input type="checkbox" name="Mail" value="Mail"><br>
-                                Kontakta mig via telefon <input type="checkbox" name="Telefon" value="Telefon">
+                               <p> <label>Kontakta mig via mail</label><input type="checkbox" name="Mail" value="Mail"></p>
+                                <p><label>Kontakta mig via telefon</label> <input type="checkbox" name="Telefon" value="Telefon"></p>
                                 
                         </fieldset> </br>
                                 <input type="submit" value="Skicka frågan">
